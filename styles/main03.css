@@ -24,6 +24,16 @@ min-height: 200px;
 margin: 40px;
 }
 
+.all{
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content : space-around;
+  align-items: center;
+  background-color: #F4EECC;
+  margin: 25px;
+padding-top: 10px;
+  border-radius: 25px;
+}
 .content{
   display: flex;
   flex-direction: row;
@@ -31,12 +41,12 @@ margin: 40px;
   justify-content : space-around;
   align-items: center;
   background-color: #F4EECC;
-  margin: 50px;
-  padding: 42px;
   border-radius: 25px;
 }
 h1 {
   font-family: 'Comfortaa', cursive;
+  display: flex;
+  justify-content: center;
   text-align: center;
   background-color: #F4EECC;
   color : #F19650;
@@ -45,16 +55,15 @@ body {background: url('images/fond.png');
 background-size:contain;
 height: auto;}
 
-footer {
-  font-family: 'Comfortaa', cursive;
-  display: flex;
-  justify-content: center;
-}
 
-footer a {
-  background: #e8c472;
+
+.aaa{
+  font-size: 20px;
+  font-family: 'Comfortaa', cursive;
+    display: flex;
+    justify-content: center;
   text-align: center;
-  padding: 42px;
+  padding-bottom: 15px;
   border-radius: 4px;
   text-decoration: none;
 }
