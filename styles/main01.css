@@ -55,7 +55,19 @@ body {background: url('images/fond.png');
 background-size:contain;
 height: auto;}
 
+a:link, a:visited {
+    background-color: #e8c472;
+    color: white;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
 
+a:hover, a:active {
+    background-color: #F19650;
+}
 
 .aaa{
   font-size: 20px;
@@ -65,5 +77,5 @@ height: auto;}
   text-align: center;
   padding-bottom: 15px;
   border-radius: 4px;
-  text-decoration: none;
+  text-decoration:none;
 }
